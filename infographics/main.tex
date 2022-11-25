@@ -332,18 +332,19 @@
 
 \begin{tabular*}{1\textwidth}{ c c c}
 	\parbox[c]{0.4\linewidth}{
-		\colorbox{thirdcol}{\HUGE{\textcolor{titletext}{\textbf{\uppercase{Jan Küster}}} }}\\
-		\Large{\textcolor{thirdcol}{\textsc{ Consultant/ Software Eng.}}}\\
+		\colorbox{thirdcol}{\HUGE{\textcolor{titletext}{\textbf{\uppercase{Michael Kuty}}} }}\\
+		\Large{\textcolor{thirdcol}{\textsc{ Software Arch/Eng/Delivery}}}\\
+		%\Large{\textcolor{thirdcol}{\textsc{ Software Engineer}}}
 	}&
 	\parbox{0.25\textwidth}{
-	\icontext{MapMarker}{12}{Bremen, Germany}\\
-	\icontext{MobilePhone}{12}{+49 176 *** *** **}\\
-	\icontext{Send}{12}{info@jankuester.com}\\
+	\icontext{MapMarker}{12}{Prague, Czechia}\\
+	\icontext{MobilePhone}{12}{+420 775 906 032}\\
+	\icontext{Send}{12}{info@michaelkuty.com}\\
 	}&
 	\parbox{0.3\textwidth}{
-	\icontext{MousePointer}{12}{www.jankuester.com}\\
-	\icontext{Github}{12}{github.com/jankapunkt}\\
-	\icontext{Twitter}{12}{@Kuester\_Jan}\\
+	\icontext{MousePointer}{12}{www.michaelkuty.com}\\
+	\icontext{Github}{12}{github.com/michaelkuty}\\
+	\icontext{Linkedin}{12}{linkedin.com/michaelkuty}\\
 	}
 \end{tabular*}
 
@@ -391,17 +392,16 @@
 		
 			% LANGUAGES
 			\cvsect{Languages}{0.49}{thirdcol}{textcol}\\[4pt]
-			\icontext{Language}{12}{\colorbox{maincol}{German (native)}}\\
-			\icontext{Language}{12}{\colorbox{maincol}{English (c1)}}\\
+			\icontext{Language}{12}{\colorbox{maincol}{English (fluent)}}\\
+			\icontext{Language}{12}{\colorbox{maincol}{Czech (native)}}\\
 		}
 
 		% PIE CHART	
 		\begin{piechart}{360}{2}{bgcol}{textcol}{sectcol}
-			\slice{6}{Design}{thirdcol}
-			\slice{16}{Consulting}{fourthcol}
-			\slice{16}{Research}{fifthcol}
-			\slice{16}{Projects}{secondcol}
-			\slice{46}{Software Engineering}{maincol}
+			\slice{33}{Solution Design}{thirdcol}
+			\slice{25}{Delivery}{fourthcol}
+			\slice{34}{Software Engineering}{maincol}
+			\slice{10}{SRE}{fourthcol}
 		\end{piechart}\\
 	}
 	\begin{center}
@@ -413,18 +413,18 @@
 	% BAR CHART
 	\mbox{\hspace{-14pt}
 		\begin{barchart}{10}{5.5}{sectcol}{textcol}{sectcol}{maincol}{secondcol}{thirdcol}
-			\baritem{90}{Javascript}{100}{0}{0}
-			\baritem{90}{Blaze}{100}{0}{0}
-			\baritem{90}{Metor}{100}{0}{0}
-			\baritem{75}{Bootstrap}{0}{0}{75}
-			\baritem{75}{MongoDB}{0}{0}{65}
-			\baritem{65}{HTML/CSS}{0}{0}{65}
-			\baritem{65}{LaTex}{0}{0}{50}
+			\baritem{100}{Python}{100}{0}{0}
+			\baritem{90}{Django, FastAPI, Flask, Celery}{100}{0}{0}
+			\baritem{90}{Kubernetes, Helm, Terraform}{100}{0}{0}
+			\baritem{90}{AWS}{100}{0}{0}
+			\baritem{75}{PostgreSQL, ElasticSearch, Redis}{100}{0}{0}
+			\baritem{65}{Prometheus, Mimir, Loki, Grafana}{0}{0}{65}
+			\baritem{65}{ArgoCD, Gitlab, Jenkins}{0}{0}{50}
 		\end{barchart}
 		\hspace{10pt}
 
 		% TEXTBOX
-		\parbox[b][100pt][c]{0.3\textwidth}{\textcolor{textcol}{Currently, I develop realtime apps with Meteor and Blaze.\\Formerly I worked with Java and XPages.}}
+		%\parbox[b][100pt][c]{0.3\textwidth}{\textcolor{textcol}{Currently, I develop realtime apps with Meteor and Blaze.\\Formerly I worked with Java and XPages.}}
 	}
 	\begin{center}
 	\begin{tikzpicture}
@@ -436,7 +436,7 @@
 		\parbox[b][2cm][c]{3cm}{
 			\textcolor{textcol}{I regularly use Meteor, Git and Webstorm for my dev projects.}
 		}\hspace{12pt}
-		\bubbles{6/Webstorm, 5/Git, 5/Sourcetree, 4/Linux, 3/Office}{\cvsection{Technologies}}		
+		\bubbles{6/Design, 5/Infra, 5/Delivery, 4/Dev, 3/Cloud}{\cvsection{Technologies}}		
 	}
 	\end{center}
 %---------------------------------------------------------------------------------------
@@ -479,47 +479,29 @@
 \begin{center}
 
 % TIMELINE
-\begin{cvtimeline}{2007}{2021}{20.6}{\linewidth}
-\cvevent{10/2007}{11/2011}{Bachelor Studies}{Uni Bremen}
+\begin{cvtimeline}{2007}{2022}{20.6}{\linewidth}
+\cvevent{10/2014}{11/2014}{Bachelor Studies}{Uni Bremen}
     {Master Thesis: Semi Automated Scoring in Technology Based Assessment}{thirdcol}{0}
 
-\cvevent{5/2009}{1/2010}{Semester Abroad}{University of Melbourne}
+\cvevent{5/2016}{1/2016}{Master Degree}{University of Hradec Kralove}
     {Mastered six months of study and trans-cultural experience in Melbourne, Australia}{maincol}{1}
 
-\cvevent{6/2010}{11/2011}{Student Assistant @UB}{Uni Bremen}
+\cvevent{1/2013}{11/2014}{Java Developer KonceptHK}{Uni Bremen}
     {Realized an online diagnosis platform for workforce literacy development (Flex)}{maincol}{1}
 
-\cvevent{6/2011}{6/2011}{PM Training}{Getoq Consulting}
+\cvevent{6/2013}{11/2014}{Python Developer IT Credit}{Uni Bremen}
+    {Realized an online diagnosis platform for workforce literacy development (Flex)}{maincol}{1}
+
+\cvevent{1/2014}{6/2015}{Monitoring/Logging\n - Generali Development}{Getoq Consulting}
     {Performed a two-day project simulation from management perspective}{secondcol}{2}
 
-\cvevent{1/2012}{11/2014}{Scientific Employee @UB}{Uni of Bremen}
-    {Invented a flexible assessment framework, targeting industrial trainees}{maincol}{1}
-
-\cvevent{11/2012}{11/2013}{Master Project - PrIMA}{University of Bremen}
-    {Co-Invented a touch table application for medical support, co-developed software (Java) }
-    {thirdcol}{2}
-
-\cvevent{9/2013}{9/2013}{DELFI Conference}{DELFI Conference}
-    {Co-published poster with paper on usability guidelines for tests with functional illiterates}
-    {secondcol}{2}
-
-\cvevent{11/2014}{9/2016}{IT Consultant @We4IT}{We4IT GmbH Bremen}
-    {Realize projects in XPages and We4IT Aveedo, monitor project status, conduct reports}
-    {maincol}{1}
-
-\cvevent{7/2015}{7/2015}{M.Sc. Graduation}{University of Bremen}
-    {Master Thesis: Semi Automated Scoring in Technology Based Assessment}{thirdcol}{0}
-
-\cvevent{5/2016}{5/2016}{Startup Weekend}{Uni Bremen}
-    {Performed a two-day project simulation from management perspective}{secondcol}{0}
-
-\cvevent{9/2016}{12/2016}{Software Engineer @UB}{University of Bremen}
+\cvevent{9/2015}{12/2016}{Software/Cloud Engineer tcpcloud}{University of Bremen}
     {text a}{maincol}{1}
     
-\cvevent{10/2018}{10/2018}{Software Engineer @UB}{University of Bremen}
+\cvevent{10/2016}{10/2018}{Software Engineer Stories.bi}{University of Bremen}
     {text a}{maincol}{1}    
     
-\cvevent{10/2020}{10/2020}{Meteor Impact Conference}{Worldwide}
+\cvevent{10/2020}{10/2022}{Workday SRE}{Worldwide}
     {text a}{secondcol}{0}
      
 \end{cvtimeline}

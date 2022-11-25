@@ -284,6 +284,7 @@
 %----------------------------------------------------------------------------------------
 \input{../g/factbubble.tex}
 
+\input{../g/chars.tex}
 
 %----------------------------------------------------------------------------------------
 %	custom sections
@@ -363,20 +364,19 @@
 
 \hspace{-16pt}\begin{tabular*}{1\textwidth}{ c c c}
 	\parbox[c]{0.43\linewidth}{
-		\colorbox{thirdcol}{\HUGE{\textcolor{titletext}{\textbf{\uppercase{Achraf Najmi}}}}}\\
-		\Large{\textcolor{thirdcol}{\textsc{Electro Info Physicist}}}\\
+		\colorbox{thirdcol}{\HUGE{\textcolor{titletext}{\textbf{\uppercase{Michael Kuty}}}}}\\
+		\Large{\textcolor{thirdcol}{\textsc{Software Arch/Eng/Delivery}}}\\
 	}&
 	\parbox{0.22\textwidth}{
-	\icontext{BirthdayCake}{12}{Born :  7/24/1994}\\
-	\icontext{MapMarker}{12}{Casablanca, Morocco}\\
-	\href{callto:+212622902221}{\icontext{Mobile}{12}{+212 6 22 90 22 21}}\\
-	\icontext{Car}{12}{Driver's license : B}\\
+	\icontext{BirthdayCake}{12}{Born :  1/16/1992}\\
+	\icontext{MapMarker}{12}{Prague, Czechia}\\
+	\href{callto:+212622902221}{\icontext{Mobile}{12}{+420 775 906 032}}\\
+	\icontext{Car}{12}{Driver's license : AB}\\
 	}&
 	\parbox{0.4\textwidth}{
-	\href{mailto:najmi.achraf@gmail.com}{\icontext{At}{12}{najmi.achraf@gmail.com}}\\
-	\href{https://www.github.com/NajmiAchraf}{\icontext{Github}{12}{github.com/NajmiAchraf}}\\
-	\href{https://stackoverflow.com/users/12854948}{\icontext{StackOverflow}{12}{stackoverflow.com/users/12854948}}\\
-	\href{https://www.linkedin.com/in/najmiachraf}{\icontext{Linkedin}{12}{linkedin.com/in/najmiachraf}}\\
+	\href{mailto:najmi.achraf@gmail.com}{\icontext{At}{12}{mail@michaelkuty.com}}\\
+	\href{https://www.github.com/NajmiAchraf}{\icontext{Github}{12}{github.com/michealkuty}}\\
+	\href{https://www.linkedin.com/in/michaelkuty}{\icontext{Linkedin}{12}{linkedin.com/in/michaelkuty}}\\
 	}
 \end{tabular*}
 
@@ -394,22 +394,22 @@
 	\mbox{
 		\parbox[c][3cm][c]{0.29\textwidth}{
 			\begin{center}
-			\textcolor{textcol}{I am a graduate in Physics Electronic with working experience in research projects.}
+			\textcolor{textcol}{I am a universal problem solver covering all topics in software architecture design, development, delivery and operation. }
 			\end{center}
 		}
 		\hspace{10pt}
 		\parbox[c][3cm][c]{0.32\textwidth}{
 			\begin{center}
-			\factbubble{\huge{\textcolor{titletext}{\textbf{BGS}}}\\\small{\textcolor{titletext}{\textbf{Physics Electronic}}}}{1}{maincol}{titletext}{thirdcol}\\
+			\factbubble{\huge{\textcolor{titletext}{\textbf{FS}}}\\\small{\textcolor{titletext}{\textbf{Full Stack}}}}{0.9}{maincol}{titletext}{thirdcol}\\
 			\textcolor{textcol}{as latest degree from}\\
-			\textcolor{textcol}{\textbf{University Hassan II of Casablanca : Faculty of Science Ben M'sik.
+			\textcolor{textcol}{\textbf{University of Hradec Kralove : Faculty of Applied Informatics.
 }}
 			\end{center}
 		}
 		\hspace{10pt}
 		\parbox[c][3cm][c]{0.29\textwidth}{
 			\begin{center}
-			\textcolor{textcol}{I am always looking for exciting new interdisciplinary projects related to physics.}
+			\textcolor{textcol}{I am always looking for exciting new interdisciplinary roles related to software development.}
 			\end{center}
 		}
 	}
@@ -423,25 +423,31 @@
 	\mbox{
 		
 		% TEXT BOX
-		\parbox[b][130pt][c]{0.35\textwidth}{
+		\parbox[b][130pt][c]{0.45\textwidth}{
 			\begin{center}
-			\textcolor{textcol}{Most of my contribution to my work is in the field of IT development and maintenance.}
+			\textcolor{textcol}{Most of my contribution to my work is in the field of solution design, development, delivery and operation.}
 			\end{center}
 			
 			% LANGUAGES
 			\cvsect{Languages}{0.49}{thirdcol}{textcol}\\[4pt]
-			\iconbox{Language}{12}{thirdcol}{French (B2)}{titletext}\\
-			\iconbox{Language}{12}{thirdcol}{English (A2)}{titletext}\\
+			\iconbox{Language}{12}{thirdcol}{Czech (native)}{titletext}\\
+			\iconbox{Language}{12}{thirdcol}{English (fluent)}{titletext}\\
 		}
 
 		% PIE CHART	
 		\parbox[b][130pt][c]{0.65\textwidth}{
 			\footnotesize
 			\begin{piechart}{360}{1.75}{bgcol}{textcol}{sectcol}
-				\slice{33}{Development}{maincol}
-				\slice{27}{Maintenance}{thirdcol}
-				\slice{23}{Schematization}{secondcol}
-				\slice{17}{Design}{fifthcol}
+    			\slice{33}{Solution Design}{thirdcol}
+    			\slice{15}{Cloud Infra}{fourthcol}
+    			\slice{10}{Delivery}{sixthcol}
+    			\slice{34}{Software Engineering}{maincol}
+    			\slice{10}{SRE}{fifthcol}
+
+				%\slice{33}{Solution Design}{maincol}
+				%\slice{25}{Software Development}{secondcol}
+				%\slice{15}{Delivery}{thirdcol}
+				%\slice{17}{Infrastructure}{fifthcol}
 			\end{piechart}\\
 		}
 	}
@@ -474,24 +480,40 @@
 %	SOFTWARE PROGRAMS
 %----------------------------------------------------------------------------------------
 
-	% \vspace{-10pt}
-	\cvsect{Software Programs}{0.49}{thirdcol}{textcol}\\[-15pt]
+	%\vspace{-5pt}
+	\cvsect{Characteristics}{0.49}{thirdcol}{textcol}\\[-15pt]
 	\begin{center}
 	\mbox{
-		\bubbles{6/PyCharm/\faIcon{file-code}, 4.5/MD/\faMarkdown, 5.5/CLion/\faIcon{file-code}, 4/Terminal/\faTerminal, 5/Proteus/\faDiceD6, 3.5/\faGit/\faCodeBranch}{\cvsection{Utilitaires}}
+		%\bubbles{6/Result Oriented/\faIcon{chart-line}, 5.5/Efficient/\faMarkdown, 5.5/Team player/\faIcon{file-code}, 4/Operate/\faTerminal, 5/Deployment/\faDiceD6, 3.5/\faGit/\faCodeBranch}{\cvsection{Utilitaires}}
+		
+		% SQUARE BARS
+		
+		\hspace{-20pt}
+		\parbox[b][2cm][c]{2cm}{\vspace{10pt}
+			\chars{20/\faPlayCircle \hspace{1pt} Team Player,20/\faRunning \hspace{1pt} Productive     ,20/\faChartPie \hspace{1pt} Result Oriented}{1}
+			}
+		\hspace{40pt}
+		\parbox[b][2cm][c]{2cm}{\vspace{10pt}
+			\chars{20/\faChess \hspace{1pt} Quick Learning,20/\faGithub \hspace{1pt} Empathetic,20/\faCode \hspace{1pt} Builder}{1}
+			}		
+		\hspace{40pt}
+		\parbox[b][2cm][c]{2cm}{\vspace{10pt}
+			\chars{20/\faCodeBranch \hspace{1pt} Communicative,20/\faWaveSquare \hspace{1pt} Positive Attitude,20/\faChargingStation \hspace{1pt} Flexible}{1}
+			}		
+				
 		}
 	\vspace{5pt}
 	\newline
 	\parbox[b][40pt][c]{0.35\textwidth}{
 		% OS
 		\cvsect{OS}{0.35}{thirdcol}{textcol}\\[4pt]
-		\iconbox{Microsoft}{12}{thirdcol}{Windows}{titletext}\\
+		\iconbox{Linux}{12}{thirdcol}{Linux}{titletext}\\
 		\iconbox{Apple}{12}{thirdcol}{macOS}{titletext}\\
 			}
 	\hspace{10pt}
 	\parbox[b][50pt][c]{0.6\textwidth}{
 		\begin{center}
-		\textcolor{textcol}{I regularly use for my development projects PyCharm and CLion as IDE, and I use for schematic capture and simulation Proteus CAD.}
+		\textcolor{textcol}{I regularly use for my projects Linux, Cloud (mostly AWS), Kubernetes, Gitlab, ArgoCD, Mimir, Loki, Grafana, Sentry, PostgreSQL, ElasticSearch, Redis and many more.}
 		\end{center}
 			}
 		
@@ -507,21 +529,22 @@
 		% IT DEVELOPMENT
 		\cvsect{IT Development}{0.49}{thirdcol}{textcol}\\[4pt]
 		\iconbox{Python}{12}{maincol}{Python 3}{textcol}
-		\iconbox{Cuttlefish}{12}{maincol}{C}{textcol}
-		\hspace{20pt}
-		\legend{Language}{1.6cm}{maincol} \legend{Front End}{1.5cm}{secondcol} \legend{Back End}{1.5cm}{fifthcol}
+		\iconbox{Linux}{12}{maincol}{Linux}{textcol}
+		\iconbox{Cloud}{12}{maincol}{Clouds}{textcol}
+		\hspace{15pt}
+        \vspace{5pt} \legend{Code}{1.2cm}{maincol} \legend{Services}{1.4cm}{secondcol} \legend{Back End}{1.4cm}{fifthcol}
 	}
-	
+
 	% BAR CHART
 	\vspace{9pt}\mbox{\hspace{-14pt}
 		\begin{barchart}{10}{5.2}{sectcol}{textcol}{sectcol}{maincol}{secondcol}{fifthcol}
 			% n1*x + n2*x + n3*x... = 100, Ex:{x=0.459770114942529, n1=80} -> x*n1 = 36.7816
 			% \baritem{50}{\faPython \hspace{1pt} Python 3}{36.7816}{33.3333}{29.885} 
-			\baritem{50}{\faCode \hspace{1pt} Syntax}{100}{0}{0}
-			\baritem{50}{\faBoxes \hspace{1pt} Libraries}{0}{0}{90}
-			\baritem{50}{\faWaveSquare \hspace{1pt} Data Science}{0}{40}{40}
-			\baritem{50}{\faLaptopCode \hspace{1pt} GUI}{0}{70}{0}
-			\baritem{50}{\faChartPie \hspace{1pt} Data Analysis}{0}{0}{60}
+			\baritem{50}{\faCode \hspace{1pt} Backend / API}{33}{33}{33}
+			\baritem{50}{\faBoxes \hspace{1pt} Cloud Infra}{30}{30}{30}
+			\baritem{50}{\faWaveSquare \hspace{1pt} CI/CD}{40}{40}{0}
+			\baritem{50}{\faLaptopCode \hspace{1pt} Monitoring}{35}{35}{0}
+			\baritem{50}{\faChartPie \hspace{1pt} Common Tasks}{20}{20}{20}
 			
 		\end{barchart}
 		
@@ -529,28 +552,28 @@
 		
 		% TEXTBOX
 		\parbox[b][70pt][c]{0.22\textwidth}{\vspace{30pt}
-		\colorbox{maincol}{\faPython \hspace{1pt} \& \faCuttlefish \hspace{1pt} \& \LaTeX}	
+		\colorbox{maincol}{\faPython \hspace{1pt} \& \faCode \hspace{1pt} \& \faTerminal}	
 		
-		\iconboxfa{share-alt}{8}{fifthcol}{built-in}{titletext}
+		\iconbox{Cloud}{8}{secondcol}{AWS, ..}{titletext}
 		
-		\iconbox{FileCode}{8}{fifthcol}{pyinstaller}{titletext}
+		\iconboxfa{feather-alt}{8}{secondcol}{K8s, ..}{titletext}
 		
-		\iconbox{ChartArea}{8}{secondcol}{matplotlib}{titletext}
+		\iconbox{FileCode}{8}{fifthcol}{Django, ..}{titletext}
 		
-		\iconboxfa{square-root-alt}{8}{fifthcol}{sympy}{titletext}
+		\iconboxfa{square-root-alt}{8}{fifthcol}{Celery, ..}{titletext}
 		
-		\iconboxfa{feather-alt}{8}{secondcol}{tkinter}{titletext}
+		\iconbox{Table}{8}{secondcol}{DBs, ..}{titletext}
 		
-		\iconbox{SortNumericDown}{8}{fifthcol}{numpy}{titletext}
+		\iconbox{SortNumericDown}{8}{secondcol}{Gitlab, ..}{titletext}
 		
-		\iconbox{Table}{8}{fifthcol}{pandas}{titletext}
+		\iconbox{ChartArea}{8}{secondcol}{Grafana, ..}{titletext}
 		}
 	}\\
 	
 	% TEXTBOX
 	\parbox[b][35pt][c]{0.73\textwidth}{
 		\begin{center}
-		\textcolor{textcol}{Currently, I am developing realtime applications with Python, and creating a GUI with tkinter, and extracting from the script `file.py` an executable file by pyinstaller using auto py to exe.}
+		\textcolor{textcol}{Currently, I am developing realtime applications with Python, Celery running on Kubernetes deployed with Helm and ArgoCD}
 		\end{center}
 		}
 	% \begin{center}
@@ -569,13 +592,13 @@
 		
 		% SQUARE BARS
 		\parbox[b][3cm][c]{4.6cm}{
-			\squares{24/\faRunning \hspace{0.5pt} Sport,27/\faChess \hspace{1pt} Brain Games,30/\faNewspaper \hspace{1pt} Tech News,33/\faPlayCircle \hspace{1pt} Tutorials}{1}
+			\squares{24/\faRunning \hspace{0.5pt} Sport,27/\faChess \hspace{1pt} FIRE,30/\faNewspaper \hspace{1pt} Tech News,33/\faPlayCircle \hspace{1pt} IoT | 3D Print}{1}
 			}
 		
 		% FACT BUBBLE
 		\parbox[b][3cm][c]{3cm}{
 			\begin{center}
-			\factbubble{\HUGE{\textcolor{titletext}{\textbf{8}}}\\\small{\textcolor{titletext}{\textbf{public \\ repos}}}}{0.85}{maincol}{titletext}{thirdcol}\\
+			\factbubble{\Large{\textcolor{titletext}{\textbf{30+}}}\\\small{\textcolor{titletext}{\textbf{public \\ repos}}}}{0.85}{maincol}{titletext}{thirdcol}\\
 			\textcolor{textcol}{in my}\\
 			\textcolor{textcol}{\textbf{GitHub Account \\ \faGithub}}
 			\end{center}
@@ -584,7 +607,8 @@
 		% TEXT BOX
 		\parbox[b][3cm][c]{3.5cm}{
 			\begin{center}
-			\textcolor{textcol}{Among the dominant activities that I practice is to browse the internet in search of news on the computer world and trained on all the tutorials that interests me.}
+			%\textcolor{textcol}{Among the dominant activities that I practice is to browse the internet in search of news on the computer world and trained on all the tutorials that interests me.}
+			\textcolor{textcol}{"First make it work. Then, make it beautiful. Then, make it fast."}
 			\end{center}
 		}
 	}
@@ -608,17 +632,17 @@
 %----------------------------------------------------------------------------------------
 %	Physique Électronique
 %----------------------------------------------------------------------------------------
-\hspace{5pt}\colorbox{maincol}{\footnotesize \faDigitalTachograph \hspace{1pt} Electronic ~•~ \faChargingStation \hspace{1pt} Electrical Engineering ~•~ \faMicrochip \hspace{1pt} Digital}
+\hspace{5pt}\colorbox{maincol}{\footnotesize \faDigitalTachograph \hspace{1pt} Electronic ~•~ \faChargingStation \hspace{1pt} Internet of Things ~•~ \faMicrochip \hspace{1pt} 3D Print}
 
-\hspace{55pt}\colorbox{maincol}{\footnotesize \faBroadcastTower \hspace{1pt} Telecommunication ~•~ \faIcon{network-wired} \hspace{1pt} Network}\\
+\hspace{55pt}\colorbox{maincol}{\footnotesize \faChartPie \hspace{1pt} Data ~•~ \faIcon{network-wired} \hspace{1pt} Network}\\
 
-\hspace{55pt}\mbox{\legend{Education}{1.5cm}{maincol} \legend{Project}{1.1cm}{secondcol} \legend{Experience}{1.7cm}{thirdcol} \legend{Event}{0.9cm}{fifthcol}}
+\hspace{55pt}\mbox{\legend{Education}{1.7cm}{maincol} \legend{Project}{1.7cm}{fifthcol} \legend{Experience}{1.7cm}{secondcol}}
 
 \vspace{-55pt}
 \begin{center}
 
 % TIMELINE fifthcol
-\begin{timelinevertical}{2019}{2022}{21}{\linewidth}{0.3}
+\begin{timelinevertical}{2013}{2023}{21}{\linewidth}{0.3}
 % {maincol}  {secondcol}  {thirdcol}
 
 % \cvevent{6/2012}{6/2012}{High School Degree \newline Series : Experimental Sciences \newline Option : Science of Life and Earth}{0.5}{0}{maincol}{0}
@@ -635,21 +659,39 @@
 
 % \cvevent{6/2018}{6/2018}{Presentation of Project Graduation}{0.5}{0}{fifthcol}{0.2}
 
-\cvevent{6/2019}{12/2018}{Bachelor of General Studies (BGS) \newline • Series : Matter Science Physics \newline • Course : Electronic}{0.5}{0}{maincol}{0.3}
+\cvevent{3/2013}{4/2014}{Java Engineer \newline • Scope : Large Eshops connected to Helios \newline • \href{https://koncepthk.cz/}{Company : KonceptHK}}{0.5}{0}{maincol}{0.3}
 
-\cvevent{9/2019}{8/2021}{Beginning of learning Python}{0.5}{0}{maincol}{0.3}
+\cvevent{1/2013}{4/2016}{Python/Django Engineer \newline • Scope : Custom application \newline • Company : IT Credit s.r.o.}{0.5}{2}{maincol}{0.3}
 
-\cvevent{12/2019}{3/2021}{Start the MathPy Project \newline • Modern Scientific Calculator}{0.5}{0}{secondcol}{0.2}
+\cvevent{1/2014}{4/2015}{Monitoring consultant \newline • Scope : Analysis of monitoring \newline • Company : Generali Development}{0.5}{1.5}{secondcol}{0.3}
 
-\cvevent{4/2020}{3/2021}{Set MathPy Project in GitHub \newline \iconweb{pygray}{Github}{pygray}{github.com/NajmiAchraf/MathPy \newline (PROJET PRIVÉ)}{github.com/NajmiAchraf/MathPy} \newline MathPy Project is constantly updating}{0.5}{0}{fifthcol}{0.1}
+\cvevent{4/2014}{4/2018}{Cloud Software Engineer \newline • Scope : Openstack deployments and customizations \newline \href{https://www.lupa.cz/clanky/adam-skotnicky-tcp-cloud-prodej-firmy-za-miliardu-jsme-dohodli-za-14-dni/}{• Company : tcpcloud a.s.} \newline \href{https://www.e15.cz/magazin/americky-it-gigant-mirantis-koupil-za-miliardu-piseckou-firmu-tcp-cloud-1321256}{• Acquired : Mirantis}}{0.5}{3}{fifthcol}{0.3}
 
-\cvevent{9/2020}{10/2020}{Start the Gmail Project \newline • CSV Google-mail Sender \newline \iconweb{pygray}{Github}{pygray}{github.com/NajmiAchraf/Gmail}{github.com/NajmiAchraf/Gmail}}{0.5}{0}{secondcol}{0.2}
+\cvevent{10/2016}{6/2018}{Software Engineer \newline • Scope : Augmented analytics \newline • \href{https://cc.cz/cesky-analyticky-startup-stories-byl-koupen-americkym-technologickym-gigantem-workday/}{Company : Stories.bi} \newline \href{https://blog.workday.com/en-us/2018/workday-advances-into-augmented-analytics-with-stories-bi-acquisition.html}{• Acquired : Workday 2019}}{0.5}{2}{fifthcol}{0.3}
 
-\cvevent{2/2021}{3/2021}{Start the Hydrogeology Project \newline • Groundwater Hydrology \newline \iconweb{pygray}{Github}{pygray}{github.com/NajmiAchraf \newline /Hydrogeologie (PROJET PRIVÉ)}{github.com/NajmiAchraf/Hydrogeologie}}{0.5}{-0.7}{secondcol}{0.2}
+\cvevent{10/2016}{6/2018}{Software Engineer \newline • Scope : Django CMS based sites 30+ \newline • Company : 3AD}{0.5}{0}{fifthcol}{0.3}
 
-\cvevent{3/2021}{3/2021}{Scientific Computing with Python \newline Developer Certification \newline \iconweb{pygray}{FreeCodeCamp}{pygray}{freecodecamp.org/certification/\newline najmiachraf/scientific-computing-with-python-v7}{freecodecamp.org/certification/najmiachraf/scientific-computing-with-python-v7}}{0.5}{1}{maincol}{0.3}
+\cvevent{10/2018}{11/2019}{Software Engineer \newline • Scope : Enterprise HR system \newline • \href{https://www.workday.com/}{Company : Workday} \newline}{0.5}{0}{fifthcol}{0.3}
 
-\cvevent{7/2021}{8/2021}{One intensive month in UM6P \newline Piscine of 1337 school 42 network \newline \iconweb{pygray}{Github}{pygray}{github.com/NajmiAchraf/1337\_Piscine}{github.com/NajmiAchraf/1337\_Piscine}}{0.5}{1}{maincol}{0.3}
+\cvevent{11/2019}{6/2022}{Senior Software Engineer \newline • Scope : Enterprise HR system \newline • \href{https://www.workday.com/}{Company : Workday} \newline}{0.5}{0}{fifthcol}{0.3}
+
+\cvevent{1/2021}{12/2021}{Investor and Full stack \newline • Scope : LEGO Selling platform > 400k/m \newline • \href{https://saviorybricks.com/}{Company : BrickShock} \newline}{0.5}{0}{fifthcol}{0.3}
+
+\cvevent{1/2022}{12/2022}{Solution Architect \newline • Scope : NFT Marketplace \newline • \href{https://cc.cz/v-unoru-ziskali-rekordni-investici-ted-dva-cesi-naplno-rozjizdi-startup-pro-obchodovani-s-nft/}{Company : NFTScoring}\newline}{0.5}{0}{fifthcol}{0.3}
+
+%\cvevent{9/2019}{8/2021}{Beginning of learning Python}{0.5}{0}{maincol}{0.3}
+
+%\cvevent{12/2019}{3/2021}{Start the MathPy Project \newline • Modern Scientific Calculator}{0.5}{0}{secondcol}{0.2}
+
+%\cvevent{4/2020}{3/2021}{Set MathPy Project in GitHub \newline \iconweb{pygray}{Github}{pygray}{github.com/NajmiAchraf/MathPy \newline (PROJET PRIVÉ)}{github.com/NajmiAchraf/MathPy} \newline MathPy Project is constantly updating}{0.5}{0}{fifthcol}{0.1}
+
+%\cvevent{9/2020}{10/2020}{Start the Gmail Project \newline • CSV Google-mail Sender \newline \iconweb{pygray}{Github}{pygray}{github.com/NajmiAchraf/Gmail}{github.com/NajmiAchraf/Gmail}}{0.5}{0}{secondcol}{0.2}
+
+%\cvevent{2/2021}{3/2021}{Start the Hydrogeology Project \newline • Groundwater Hydrology \newline \iconweb{pygray}{Github}{pygray}{github.com/NajmiAchraf \newline /Hydrogeologie (PROJET PRIVÉ)}{github.com/NajmiAchraf/Hydrogeologie}}{0.5}{-0.7}{secondcol}{0.2}
+
+%\cvevent{3/2021}{3/2021}{Scientific Computing with Python \newline Developer Certification \newline \iconweb{pygray}{FreeCodeCamp}{pygray}{freecodecamp.org/certification/\newline najmiachraf/scientific-computing-with-python-v7}{freecodecamp.org/certification/najmiachraf/scientific-computing-with-python-v7}}{0.5}{1}{maincol}{0.3}
+
+%\cvevent{7/2021}{8/2021}{One intensive month in UM6P \newline Piscine of 1337 school 42 network \newline \iconweb{pygray}{Github}{pygray}{github.com/NajmiAchraf/1337\_Piscine}{github.com/NajmiAchraf/1337\_Piscine}}{0.5}{1}{maincol}{0.3}
 
 \end{timelinevertical}
 \end{center}
